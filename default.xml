@@ -6,6 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/wolfgar" name="wolfgar"/>
 
   <project remote="yocto" revision="dora" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="dora" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -19,5 +20,6 @@
 
   <project remote="freescale" revision="dora" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dora" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="wolfgar" revision="dora" name="meta-stef" path="sources/meta-stef"/>
 
 </manifest>
