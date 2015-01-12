@@ -13,8 +13,12 @@
 
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="wolfgar" revision="daisy" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="wolfgar" revision="daisy" name="meta-stef" path="sources/base">
     <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  
+  <project remote="freescale" revision="daisy" name="fsl-community-bsp-base" path="sources/base">
+    <copyfile dest="README" src="README"/>
   </project>
 
   <project remote="freescale" revision="daisy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
