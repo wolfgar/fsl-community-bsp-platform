@@ -17,10 +17,6 @@
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="daisy" name="fsl-community-bsp-base" path="sources/base">
-	<copyfile dest="README" src="README"/>
-  </project>
-
   <project remote="freescale" revision="daisy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="daisy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
