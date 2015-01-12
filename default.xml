@@ -13,7 +13,7 @@
 
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="wolfgar" revision="daisy" name="meta-stef" path="sources/base">
+  <project remote="wolfgar" revision="daisy" name="meta-stef" path="sources/meta-stef">
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
   
